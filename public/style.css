@@ -1,0 +1,18 @@
+.display-4 {
+    text-decoration: underline black;
+    font-family: 'Alfa Slab One', cursive;
+    color: yellow;
+    text-shadow: -1px 0 violet, 0 4px violet, 4px 0 violet, 0 -1px violet;    
+    background-color: black;
+}
+.jumbotron {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+#button {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+}
