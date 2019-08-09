@@ -15,4 +15,9 @@
     background-color: yellow;
     color: black;
     font-family: 'Alfa Slab One', cursive;
+    border: black;
+}
+#button:hover{
+    background-color: black;
+    color: white;
 }
