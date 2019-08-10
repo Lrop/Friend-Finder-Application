@@ -10,6 +10,12 @@
     color: white;
     text-align: center;
 }
+.jumbotron2 {
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 700px;
+}
 #button {
     text-align: center;
     background-color: yellow;
