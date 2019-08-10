@@ -1,22 +1,44 @@
 body{
-    background-color: tomato;
-}
+    animation: pulse 5s infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+        background-color: blueviolet;
+      /* background-color: #001F3F; */
+    }
+    50% {
+      background-color: #FF4136;
+    }
+    100% {
+        /* background-color: #001F3F;*/
+        background-color: blueviolet;
+      }
+  }
+
 .display-4 {
     text-decoration: underline blueviolet;
+    /* text-decoration: underline #001F3F; */
     font-family: 'Alfa Slab One', cursive;
-    color: blueviolet;
+    color: tomato;
     /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
 } 
 .container {
     background-color: black;
     color: white;
+    margin: auto;
+    border-radius: 42px;
 }
 
 .jumbotron {
     background-color: black;
     color: white;
     text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
 }
 
 .jumbotron2 {
@@ -24,6 +46,12 @@ body{
     color: white;
     text-align: center;
     height: 700px;
+    border-radius: 42px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+
 }
 
 #button {
@@ -93,6 +121,7 @@ img {
     background-color: white;
     box-shadow: 2px violet;
     float: left;
+    border-radius: 8px;
 }
 
 .survey {
@@ -105,6 +134,7 @@ img {
     font-size: 25px;
     text-align: center;
     margin-bottom: 20px;
+    text-decoration: white underline;
 }
 
 #hr {
@@ -130,4 +160,27 @@ strong {
 }
 #button {
     margin-bottom: 60px;
+}
+#hr1 {
+    color: white;
+    border: 2px white;
+}
+#hr1.new1 {
+    border-top: 1px solid red;
+  }
+  
+.form-control {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: white;
+    background-color: black;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s 
 }
