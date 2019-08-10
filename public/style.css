@@ -2,7 +2,7 @@
     text-decoration: underline blueviolet;
     font-family: 'Alfa Slab One', cursive;
     color: blueviolet;
-    /* text-shadow: -1px 0 violet, 0 4px violet, 4px 0 violet, 0 -1px violet;     */
+    /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
 } 
 
@@ -27,29 +27,60 @@
     border: black;
     margin-bottom: 20px;
 }
+#button2 {
+    text-align: center;
+    background-color: yellow;
+    color: black;
+    font-family: 'Alfa Slab One', cursive;
+    border: black;
+    margin-bottom: 20px;
+}
 
 #button:hover{
-    background-color: white;
+    background-color: yellow;
     color: black;
+    text-decoration: underline black;
+    box-shadow: 0 3px 4px 0 white, 0 3px 10px 0 white;
+}
+#button2:hover{
+    background-color: yellow;
+    color: black;
+    text-decoration: underline black;
+    box-shadow: 0 3px 4px 0 white, 0 3px 10px 0 white;
 }
 
 #footer {
     color: black;
-}
+    text-align: center;
 
+}
+#footer2 {
+    color: white;
+    text-align: center;
+
+}
 a{
     color: black;
     font-size: 20px;
     border-style: solid black;
     text-decoration: underline;
 }
-
+#a2{
+    color: white;
+    font-size: 20px;
+    border-style: solid black;
+    text-decoration: underline;
+}
 a:hover{
     font-size: 30px;
     text-shadow: 2px black;
     color: black;
 }
-
+#a2:hover{
+    font-size: 30px;
+    text-shadow: 2px black;
+    color: white;
+}
 img {
     background-color: white;
     box-shadow: 2px violet;
@@ -62,4 +93,15 @@ img {
 .p1 {
     text-align: left;
     font-size: 25px;
+    text-align: center;
+}
+
+.survey {
+    text-decoration: underline white;
+}
+#hr {
+  color: white;
+}
+#submit {
+    margin-bottom: 60px;
 }
