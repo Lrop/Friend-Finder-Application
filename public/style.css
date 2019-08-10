@@ -18,7 +18,7 @@ body{
 
 
 .display-4 {
-    /* text-decoration: underline blueviolet; */
+    text-decoration: underline blueviolet;
     /* text-decoration: underline #001F3F; */
     font-family: 'Alfa Slab One', cursive;
     color: tomato;
@@ -33,6 +33,7 @@ body{
     /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
     text-align: left;
+    padding-bottom: 34px;
 
 } 
 .container {
@@ -241,6 +242,7 @@ h3 {
 #h3 {
     font-size: 17px;
     text-align: center;
+    font-family: 'Alfa Slab One', cursive;
 } 
 #container3 {
     text-align: left;
