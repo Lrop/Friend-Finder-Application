@@ -26,13 +26,14 @@ body{
     background-color: black;
 } 
 .display-5 {
-    /* text-decoration: underline blueviolet; */
+    text-decoration: underline blueviolet;
     /* text-decoration: underline #001F3F; */
     font-family: 'Alfa Slab One', cursive;
-    color: tomato;
+    color: white;
     /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
     text-align: left;
+
 } 
 .container {
     background-color: black;
@@ -81,19 +82,22 @@ body{
     border: black;
     margin-bottom: 30px;
     margin-top: 14px;
+    float: right;
 }
 
 #button:hover{
     background-color: yellow;
     color: black;
     text-decoration: underline black;
-    box-shadow: 0 3px 4px 0 darkgray, 0 3px 10px 0 white;
+    /* box-shadow: 0 3px 4px 0 darkgray, 0 3px 10px 0 white; */
+    box-shadow:  0px 0px 4px 4px white; 
 }
 #button2:hover{
     background-color: yellow;
     color: black;
     text-decoration: underline black;
-    box-shadow: 0 3px 4px 0 darkgrey, 0 3px 10px 0 white;
+    /* box-shadow: 0 3px 4px 0 darkgrey, 0 3px 10px 0 white; */
+    box-shadow:  0px 0px 4px 4px white; 
 }
 
 #footer {
