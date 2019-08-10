@@ -1,7 +1,7 @@
 .display-4 {
     text-decoration: underline black;
     font-family: 'Alfa Slab One', cursive;
-    color: yellow;
+    color: blueviolet;
     /* text-shadow: -1px 0 violet, 0 4px violet, 4px 0 violet, 0 -1px violet;     */
     background-color: black;
 }
@@ -16,6 +16,7 @@
     color: black;
     font-family: 'Alfa Slab One', cursive;
     border: black;
+    margin-bottom: 20px;
 }
 #button:hover{
     background-color: white;
@@ -34,4 +35,15 @@ a:hover{
     font-size: 30px;
     text-shadow: 2px black;
     color: black;
+}
+img {
+    background-color: white;
+    box-shadow: 2px violet;
+}
+.survey {
+    font-size: 30px;
+}
+.p1 {
+    text-align: left;
+    font-size: 25px;
 }
