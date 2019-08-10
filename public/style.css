@@ -1,21 +1,24 @@
 .display-4 {
-    text-decoration: underline black;
+    text-decoration: underline blueviolet;
     font-family: 'Alfa Slab One', cursive;
     color: blueviolet;
     /* text-shadow: -1px 0 violet, 0 4px violet, 4px 0 violet, 0 -1px violet;     */
     background-color: black;
-}
+} 
+
 .jumbotron {
     background-color: black;
     color: white;
     text-align: center;
 }
+
 .jumbotron2 {
     background-color: black;
     color: white;
     text-align: center;
     height: 700px;
 }
+
 #button {
     text-align: center;
     background-color: yellow;
@@ -24,31 +27,38 @@
     border: black;
     margin-bottom: 20px;
 }
+
 #button:hover{
     background-color: white;
     color: black;
 }
+
 #footer {
     color: black;
 }
+
 a{
     color: black;
     font-size: 20px;
     border-style: solid black;
     text-decoration: underline;
 }
+
 a:hover{
     font-size: 30px;
     text-shadow: 2px black;
     color: black;
 }
+
 img {
     background-color: white;
     box-shadow: 2px violet;
 }
+
 .survey {
     font-size: 30px;
 }
+
 .p1 {
     text-align: left;
     font-size: 25px;
