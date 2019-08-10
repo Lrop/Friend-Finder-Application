@@ -137,10 +137,10 @@ img {
     background-color: white;
     box-shadow: 2px violet;
     float: left;
-    border-radius: 8px;
+    border-radius: 42px;
 }
 img:hover {
-    background-color: white;
+    background-color: transparent;
     box-shadow: 2px violet;
     float: left;
     border-radius: 8px;
@@ -206,6 +206,23 @@ strong {
     line-height: 1.5;
     color: white;
     background-color: black;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ;
+
+}
+.form-control:hover {
+    display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.5;
+    color: black;
+    background-color: white;
+    /* box-shadow: #FF4136; */
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
