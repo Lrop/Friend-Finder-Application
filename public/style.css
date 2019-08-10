@@ -1,3 +1,6 @@
+body{
+    background-color: tomato;
+}
 .display-4 {
     text-decoration: underline blueviolet;
     font-family: 'Alfa Slab One', cursive;
@@ -5,6 +8,10 @@
     /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
 } 
+.container {
+    background-color: black;
+    color: white;
+}
 
 .jumbotron {
     background-color: black;
@@ -60,10 +67,11 @@
 
 }
 a{
-    color: black;
+    color: white;
     font-size: 20px;
     border-style: solid black;
     text-decoration: underline;
+
 }
 #a2{
     color: white;
@@ -74,7 +82,7 @@ a{
 a:hover{
     font-size: 30px;
     text-shadow: 2px black;
-    color: black;
+    color: white;
 }
 #a2:hover{
     font-size: 30px;
@@ -84,24 +92,42 @@ a:hover{
 img {
     background-color: white;
     box-shadow: 2px violet;
+    float: left;
 }
 
 .survey {
-    font-size: 30px;
+    font-size: 45px;
+    text-decoration: black;
 }
 
 .p1 {
     text-align: left;
     font-size: 25px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
-.survey {
-    text-decoration: underline white;
-}
 #hr {
   color: white;
 }
 #submit {
+    margin-bottom: 80px;
+    margin-top: 20px;
+    border-color: black;
+    color: black;
+}
+#submit:hover {
+    background-color: black;
+    border-color: white;
+    color: white;
+}
+strong {
+    text-decoration: white underline;
+    font-size: 28px;
+}
+#img2{
+    float: right;
+}
+#button {
     margin-bottom: 60px;
 }
