@@ -16,8 +16,9 @@ body{
       }
   }
 
+
 .display-4 {
-    text-decoration: underline blueviolet;
+    /* text-decoration: underline blueviolet; */
     /* text-decoration: underline #001F3F; */
     font-family: 'Alfa Slab One', cursive;
     color: tomato;
@@ -29,6 +30,7 @@ body{
     color: white;
     margin: auto;
     border-radius: 42px;
+    
 }
 
 .jumbotron {
@@ -75,13 +77,13 @@ body{
     background-color: yellow;
     color: black;
     text-decoration: underline black;
-    box-shadow: 0 3px 4px 0 white, 0 3px 10px 0 white;
+    box-shadow: 0 3px 4px 0 darkgray, 0 3px 10px 0 white;
 }
 #button2:hover{
     background-color: yellow;
     color: black;
     text-decoration: underline black;
-    box-shadow: 0 3px 4px 0 white, 0 3px 10px 0 white;
+    box-shadow: 0 3px 4px 0 darkgrey, 0 3px 10px 0 white;
 }
 
 #footer {
@@ -108,12 +110,12 @@ a{
     text-decoration: underline;
 }
 a:hover{
-    font-size: 30px;
+    font-size: 22px;
     text-shadow: 2px black;
     color: white;
 }
 #a2:hover{
-    font-size: 30px;
+    font-size: 22px;
     text-shadow: 2px black;
     color: white;
 }
@@ -125,13 +127,13 @@ img {
 }
 
 .survey {
-    font-size: 45px;
+    font-size: 36px;
     text-decoration: black;
 }
 
 .p1 {
     text-align: left;
-    font-size: 25px;
+    font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
     text-decoration: white underline;
@@ -144,12 +146,14 @@ img {
     margin-bottom: 80px;
     margin-top: 20px;
     border-color: black;
-    color: black;
+    color: white;
+    background-color: black
 }
 #submit:hover {
     background-color: black;
     border-color: white;
     color: white;
+    box-shadow:  0px 0px 4px 4px white; 
 }
 strong {
     text-decoration: white underline;
@@ -183,4 +187,11 @@ strong {
     border: 1px solid #ced4da;
     border-radius: .25rem;
     transition: border-color .15s 
+}
+h4 {
+    font-size: 1.5rem;
+    padding-top: 8px;
+}
+h3 {
+    font-size: 17px;
 }
