@@ -22,23 +22,30 @@ var PORT = process.env.PORT || 8080;
   
 //     console.log("connected as id " + connection.threadId);
 //   });
+app.get('/', function (req, res) {
+    res.render('home', {});
+  });
+
+
+  app.use(function(err, req, res, next) {
+    // set locals, only providing error in development
+    res.locals.message = err.message;
+    res.locals.error = req.app.get('env') === 'development' ? err : {};
+// render the error page
+res.status(err.status || 500);
+res.send('error');//this or res.status(err.status || 500).send('error')
+});
+ 
+
   
-
-
-
- app.use(bodyParser.json());
- app.use(bodyParser.urlencoded({extended: true})); 
- app.use(bodyParser.text());
- app.use(bodyParser.json({type: "application/vnd.api+json"}));
-
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.text());
+app.use(bodyParser.json({ type: "application/vnd.api+json" }));
 
 app.use(express.static("app/public"));
 
-// require("./routing/apiRoutes.js")(app);
-// require("./routing/htmlRoutes.js")(app);
+require("./routing/htmlRoutes")(app);
+require("./routing/apiRoutes")(app);
 
-
-app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
-  
+app.listen(PORT, () => console.log("Listening on port %s", PORT));
