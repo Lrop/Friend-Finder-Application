@@ -24,6 +24,10 @@ body{
     color: tomato;
     /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
+    font-size: 4.5rem;
+    font-weight: 300;
+    line-height: 1.2;
+
 } 
 .display-5 {
     text-decoration: underline blueviolet;
@@ -34,6 +38,7 @@ body{
     background-color: black;
     text-align: left;
     padding-bottom: 34px;
+    font-size: 55px;
 
 } 
 .container {
@@ -248,7 +253,7 @@ h3 {
     text-align: left;
 }
 #h3-class {
-    margin-left: 77px;
-    margin-right: 254px;
+    /* margin-left: 200px; */
+    margin-right: 200px;
     font-size: 20px;
 }
