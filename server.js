@@ -11,8 +11,8 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.text());
 
 
-app.use(express.static("app/public"));
-app.use(express.static(__dirname + '../public/Assets/styleFriend.css'));
+app.use(express.static("public"));
+// app.use(express.static(__dirname + '../public/Assets/styleFriend.css'));
 
 require("./routing/htmlRoutes")(app);
 require("./routing/apiRoutes")(app);
