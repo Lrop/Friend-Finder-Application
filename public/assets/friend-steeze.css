@@ -1,9 +1,7 @@
 .display-4 {
     text-decoration: underline blueviolet;
-    /* text-decoration: underline #001F3F; */
     font-family: 'Alfa Slab One', cursive;
     color: tomato;
-    /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
     font-size: 4.5rem;
     font-weight: 300;
@@ -12,10 +10,8 @@
 } 
 .display-5 {
     text-decoration: underline blueviolet;
-    /* text-decoration: underline #001F3F; */
     font-family: 'Alfa Slab One', cursive;
     color: white;
-    /* text-shadow: -1px 0 red, 0 4px red, 4px 0 red, 0 -1px red;     */
     background-color: black;
     text-align: left;
     padding-bottom: 34px;
@@ -30,13 +26,13 @@ body{
   @keyframes pulse {
     0% {
         background-color: blueviolet;
-      /* background-color: #001F3F; */
+    
     }
     50% {
       background-color: #FF4136;
     }
     100% {
-        /* background-color: #001F3F;*/
+        
         background-color: blueviolet;
       }
   }
@@ -95,14 +91,12 @@ body{
     background-color: yellow;
     color: black;
     text-decoration: underline black;
-    /* box-shadow: 0 3px 4px 0 darkgray, 0 3px 10px 0 white; */
     box-shadow:  0px 0px 4px 4px white; 
 }
 #button2:hover{
     background-color: yellow;
     color: black;
     text-decoration: underline black;
-    /* box-shadow: 0 3px 4px 0 darkgrey, 0 3px 10px 0 white; */
     box-shadow:  0px 0px 4px 4px white; 
 }
 
@@ -164,7 +158,6 @@ img:hover {
     font-size: 20px;
     text-align: center;
     margin-bottom: 20px;
-    /* text-decoration: white underline; */
     text-align: left;
 }
 
@@ -228,7 +221,6 @@ strong {
     line-height: 1.5;
     color: black;
     background-color: white;
-    /* box-shadow: #FF4136; */
     background-clip: padding-box;
     border: 1px solid #ced4da;
     border-radius: .25rem;
@@ -253,7 +245,6 @@ h3 {
     text-align: left;
 }
 #h3-class {
-    /* margin-left: 200px; */
     margin-right: 200px;
     font-size: 20px;
 }

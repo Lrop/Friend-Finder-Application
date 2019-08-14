@@ -1,7 +1,8 @@
 var friends = [
 	{
 		name: "Friend One",
-		photo: "",
+		photo: "https://images.unsplash.com/photo-1501432377862-3d0432b87a14?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80",
+		//deadpool 
 		scores: [1, 1, 1, 1, 1, 1, 1, 1, 1, 1]
 	},
 	{
